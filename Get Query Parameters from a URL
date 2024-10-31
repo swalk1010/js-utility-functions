@@ -1,0 +1,7 @@
+function getQueryParams(url) {
+  const params = new URLSearchParams(url.split('?')[1]);
+  return Object.fromEntries(params.entries());
+}
+
+// Usage
+console.log(getQueryParams('http://example.com/?name=John&age=30')); // { name: 'John', age: '30' }
