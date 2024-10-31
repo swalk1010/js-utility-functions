@@ -1,0 +1,7 @@
+function flattenArray(arr) {
+  return arr.reduce((flat, toFlatten) =>
+    flat.concat(Array.isArray(toFlatten) ? flattenArray(toFlatten) : toFlatten), []);
+}
+
+// Usage
+console.log(flattenArray([1, [2, [3, 4], 5]])); // [1, 2, 3, 4, 5]
