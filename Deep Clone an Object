@@ -1,0 +1,8 @@
+function deepClone(obj) {
+  return JSON.parse(JSON.stringify(obj));
+}
+
+// Usage
+const original = { name: 'Alice', skills: ['JS', 'CSS'] };
+const clone = deepClone(original);
+console.log(clone);
