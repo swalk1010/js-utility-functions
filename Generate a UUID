@@ -1,0 +1,9 @@
+function generateUUID() {
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+    const r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
+    return v.toString(16);
+  });
+}
+
+// Usage
+console.log(generateUUID()); // "f9a6e1d6-73c5-40e1-a487-1b7bba82d8b8"
