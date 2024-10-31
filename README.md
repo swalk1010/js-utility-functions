@@ -1,6 +1,4 @@
-# Here's a sample `README.md` for the JavaScript utility functions repository:
 
----
 
 # JavaScript Utility Functions 🛠️
 
