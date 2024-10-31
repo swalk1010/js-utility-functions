@@ -1,0 +1,7 @@
+function sortByKey(arr, key) {
+  return arr.sort((a, b) => (a[key] > b[key] ? 1 : -1));
+}
+
+// Usage
+const data = [{name: 'John', age: 30}, {name: 'Alice', age: 25}];
+console.log(sortByKey(data, 'age')); // [{name: 'Alice', age: 25}, {name: 'John', age: 30}]
