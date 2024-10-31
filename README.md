@@ -2,7 +2,6 @@
 
 # JavaScript Utility Functions 🛠️
 
-A collection of essential JavaScript utility functions for everyday development tasks. This repository contains reusable functions to enhance productivity, improve code readability, and optimize web performance. Each function includes usage examples and explanations, making it easy to integrate them into your projects.
 
 ## 🔍 Table of Contents
 1. [Debounce Function](#1-debounce-function)
