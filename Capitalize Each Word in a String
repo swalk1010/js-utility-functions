@@ -1,0 +1,6 @@
+function capitalizeWords(str) {
+  return str.replace(/\b\w/g, char => char.toUpperCase());
+}
+
+// Usage
+console.log(capitalizeWords('hello world')); // "Hello World"
